@@ -11,7 +11,7 @@ class Array
         end
       end
    
-      break if not swapped
+      break unless swapped
     end
     self
   end
